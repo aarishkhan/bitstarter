@@ -10,7 +10,7 @@ fs.readFile('bitstarter.html', 'utf8', function (err,data) {
   }
 
     response.send(data);
-});  
+});
 });
 
 var port = process.env.PORT || 5000;
